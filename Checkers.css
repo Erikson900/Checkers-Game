@@ -1,0 +1,137 @@
+#board-container{
+    height: 80vh;
+    width: 80vh;
+    margin: 3rem auto;
+    outline: 10px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#board-container2{
+    height: 80vh;
+    width: 80vh;
+    margin: 3rem auto;
+    outline: 10px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#board-choice{
+    height: 80vh;
+    width: 80vh;
+    margin: 2rem auto;
+    outline: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#grey:hover{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(202, 202, 202, 0.2);
+    z-index: 3;
+
+}
+.transparant{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(202, 202, 202, 0);
+    z-index: 3;
+
+}
+.green{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(18, 194, 42, 0.2);
+    z-index: 3;
+
+}
+.red{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(194, 44, 18, 0.2);
+    z-index: 3;
+
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.black{
+    background-color: rgb(54, 54, 54);
+    z-index: 1;
+}
+.white{
+    background-color: rgb(219, 219, 219);
+    z-index: 1;
+}
+.none{
+    display: none ;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.exist{
+    display: block;
+}
+
+#checker{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+}
+#placeHolderChecker{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.white-peice{
+    background-color: rgb(233, 233, 233);
+
+}
+
+.Black-peice{
+    background-color:rgb(0, 0, 0);
+}
+
+.chosen-peice{
+  border-style: solid;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-color: rgb(255, 182, 23);
+
+}
+.yellow{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(248, 252, 16, 0.2);
+    z-index: 4;
+    border-style: solid;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(255, 220, 23);
+}
+
+img{
+height: 100%;
+width: 100%;
+}
+.king{
+    background-image: url(crown.jpg);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px; 
+}
